@@ -24,12 +24,12 @@ console.warn(
   } else {
     const gascript = document.createElement("script");
     gascript.setAttribute("async", "");
-    gascript.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=G-WKJQ5QHQTJ");
+    gascript.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=G-N0LG27M8L8");
     const inlinegascript = document.createElement("script");
     inlinegascript.innerHTML = `window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'G-WKJQ5QHQTJ');`;
+        gtag('config', 'G-N0LG27M8L8');`;
     document.head.append(gascript, inlinegascript);
     script("Injected script 1/2");
   }

@@ -112,7 +112,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
         style.border = style.outline = "none"
         style.width = style.height = "100%"
         doc.body.appendChild(iframe)
-        location.replace("https://google.com")
+        location.replace("https://5gms.tk")
     }
 }
 //made by Bigfoot9999
